@@ -8,7 +8,7 @@
 # 00–10: N1   🌑 | Brown noise + 7.83Hz (Schumann) | Theta/Delta (4–7 Hz)             |
 # 10–20: N2   🌒 | Pink noise + 6Hz (Theta)        | Sleep spindles (12–16 Hz bursts) |
 # 20–30: N3   🌑 | Brown noise + 2Hz (Delta)       | Deep sleep (0.5–4 Hz)            |
-# 30–40: N3   🌑 | Brown noise + 2Hz (Delta)       | Glymphatic clearance             |
+# 30–40: N3   🌑 | Brown noise + 0.5Hz (Delta)     | Glymphatic clearance             |
 # 40–50: N3   🌑 | Brown noise + 2Hz (Delta)       | Growth hormone release           |
 # 50–60: N2   🌒 | Pink noise + 6Hz (Theta)        | Memory replay                    |
 # 60–70: REM  🌕 | White noise + 15Hz (Beta)       | Dreaming (12–30 Hz)              |
@@ -28,8 +28,8 @@ play -r 44100 "|sox -n -p synth 600 pinknoise fade p 3 0 3 gain -8 tremolo 2 50"
 # 20–30: N3   🌑 | Brown noise + 2Hz (Delta)       | Deep sleep (0.5–4 Hz) 
 play -r 44100 "|sox -n -p synth 600 brownnoise fade p 3 0 0 gain -6 tremolo 2 70" 
 
-# 30–40: N3   🌑 | Brown noise + 2Hz (Delta)       | Glymphatic clearance  
-play -r 44100 "|sox -n -p synth 600 brownnoise gain -6 tremolo 2 70" 
+# 30–40: N3   🌑 | Brown noise + 0.5Hz (Delta)       | Glymphatic clearance  
+play -r 44100 "|sox -n -p synth 600 brownnoise gain -6 tremolo 0.5 70" 
 
 # 40–50: N3   🌑 | Brown noise + 2Hz (Delta)       | Growth hormone release 
 play -r 44100 "|sox -n -p synth 600 brownnoise fade p 0 0 3 gain -6 tremolo 2 70" 
