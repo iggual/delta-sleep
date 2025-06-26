@@ -130,7 +130,7 @@ Here’s a granular timeline for the first 120 minutes of the sequencer, mapping
 +----------------+---------------------------------+----------------------------------+
 
 ```
-**Download sequencer prototype:**
+**Download prototype:**
 
 [Theta Sleep Sequencer](delta-sleep-1-2h.sh)
 
