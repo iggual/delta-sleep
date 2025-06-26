@@ -89,7 +89,7 @@ Some studies show delayed N1 onset and fragmented REM.
 
 ## Visualizing Sleep Dynamics: A MIDI Tracker Model
 
-To design the **Theta Sleep Sequencer**, we first map brainwave frequencies to a timeline. Below is a MIDI tracker-style ASCII graph of healthy sleep stages over 8 hours:
+To design the **Delta Sleep Sequencer**, we first map brainwave frequencies to a timeline. Below is a MIDI tracker-style ASCII graph of healthy sleep stages over 8 hours:
 
 ```
 ==========================================================================================
@@ -109,7 +109,7 @@ TIME (hours)       0h  1h  2h  3h  4h  5h  6h  7h  8h
 2. **Midnight to Dawn (Hours 4–7):** REM (Beta/Gamma) expands; Sigma spindles bridge transitions.
 3. **Final Hour (Hour 8):** Light sleep (N2/Sigma) precedes waking.
 
-## The Theta Sleep Sequencer: A Prototype
+## The Delta Sleep Sequencer: A Prototype
 
 Here’s a granular timeline for the first 120 minutes of the sequencer, mapping noise types, tremolo frequencies, and sleep stages in 10-minute intervals:
 
