@@ -111,7 +111,7 @@ TIME (hours)       0h  1h  2h  3h  4h  5h  6h  7h  8h
 
 ## The Delta Sleep Sequencer: A Prototype
 
-Here’s a granular timeline for the first 120 minutes of the sequencer, mapping noise types, tremolo frequencies, and sleep stages in 10-minute intervals:
+Here’s a granular timeline for the first 120 minutes sequence, mapping noise types, tremolo frequencies, and sleep stages in 10-minute intervals:
 
 ```
 +----------------+-------------------------------- +----------------------------------+
