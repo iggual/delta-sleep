@@ -1,4 +1,9 @@
+
 # Sleep Patterns and Brain Frequencies Research
+
+**⚠️ Experimental Tool & Listening Safety Notice ⚠️**  
+> **This project is highly experimental, untested, and carries risks.**  
+> See [disclaimer section](#experimental-tool--use-at-your-own-risk) below before proceeding.
 
 ### Engineering Harmony Between Neuroscience and Technology
 
@@ -89,7 +94,7 @@ Some studies show delayed N1 onset and fragmented REM.
 
 ## Visualizing Sleep Dynamics: A MIDI Tracker Model
 
-To design the **Delta Sleep Sequencer**, we first map brainwave frequencies to a timeline. Below is a MIDI tracker-style ASCII graph of healthy sleep stages over 8 hours:
+To design the **Theta Sleep Sequencer**, we first map brainwave frequencies to a timeline. Below is a MIDI tracker-style ASCII graph of healthy sleep stages over 8 hours:
 
 ```
 ==========================================================================================
@@ -109,30 +114,29 @@ TIME (hours)       0h  1h  2h  3h  4h  5h  6h  7h  8h
 2. **Midnight to Dawn (Hours 4–7):** REM (Beta/Gamma) expands; Sigma spindles bridge transitions.
 3. **Final Hour (Hour 8):** Light sleep (N2/Sigma) precedes waking.
 
-## The Delta Sleep Sequencer: A Prototype
+## The Theta Sleep Sequencer: A Prototype
 
-Here’s a granular timeline for the first 120 minutes sequence, mapping noise types, tremolo frequencies, and sleep stages in 10-minute intervals:
-
-```
-+----------------+-------------------------------- +----------------------------------+
-| 00–10: N1   🌑 | Brown noise + 7.83Hz (Schumann) | Theta/Delta (4–7 Hz)             |
-| 10–20: N2   🌒 | Pink noise + 6Hz (Theta)        | Sleep spindles (12–16 Hz bursts) |
-| 20–30: N3   🌑 | Brown noise + 2Hz (Delta)       | Deep sleep (0.5–4 Hz)            |
-| 30–40: N3   🌑 | Brown noise + 0.5Hz (Delta)     | Glymphatic clearance             |
-| 40–50: N3   🌑 | Brown noise + 2Hz (Delta)       | Growth hormone release           |
-| 50–60: N2   🌒 | Pink noise + 6Hz (Theta)        | Memory replay                    |
-| 60–70: REM  🌕 | White noise + 15Hz (Beta)       | Dreaming (12–30 Hz)              |
-| 70–80: REM  🌕 | White noise + 15Hz (Beta)       | Emotional processing             |
-| 80–90: N2   🌒 | Pink noise + 6Hz (Theta)        | Spindle bursts                   |
-| 90–100: N2  🌒 | Pink noise + 4Hz (Theta)        | Light sleep                      |
-| 100–110: N3 🌑 | Brown noise + 2Hz (Delta)       | Physical restoration             |
-| 110–120: N2 🌒 | Pink noise + 6Hz (Theta)        | Wake preparation                 |
-+----------------+---------------------------------+----------------------------------+
+Here’s a granular timeline for the first 120 minutes of the sequencer, mapping noise types, tremolo frequencies, and sleep stages in 10-minute intervals:
 
 ```
-**Download prototype:**
+#=========================================================================================
+#----------------+------------------------------------+----------------------------------+
+# 00–10: N1   🌑 | Brown noise + 7.83Hz (Schumann)    | Theta/Delta (4–7 Hz) (~108 BPM)  |
+# 10–20: N2   🌒 | Pink noise + 1.618Hz (Theta)       | Sleep spindles (~90 BPM)         |
+# 20–30: N3   🌑 | Brown noise + 1.618Hz (Delta)      | Deep sleep (0.5–4 Hz) (~90 BPM)  |
+# 30–40: N3   🌑 | Brown noise + 0.618Hz (Delta)      | Glymphatic clearance             |
+# 40–50: N3   🌑 | Brown noise + 1.618Hz (Delta)      | Growth hormone release           |
+# 50–60: N2   🌒 | Pink noise + 6.18Hz (Theta)        | Memory replay                    |
+# 60–70: REM  🌕 | White noise + 16.18Hz (Beta)       | Dreaming (12–30 Hz)              |
+# 70–80: REM  🌕 | White noise + 16.18Hz (Beta)       | Emotional processing             |
+# 80–90: N2   🌒 | Pink noise + 6.18Hz (Theta)        | Spindle bursts                   |
+# 90–100: N2  🌒 | Pink noise + 6-18Hz (Theta)        | Light sleep                      |
+# 100–110: N3 🌑 | Brown noise + 2Hz (Delta)          | Physical restoration             |
+# 110–120: N2 🌒 | Pink noise + 6.18Hz (Theta)        | Wake preparation                 |
+#----------------+-----------------------------------+----------------------------------+
+#========================================================================================
 
-[Delta Sleep Sequencer](delta-sleep-1-2h.sh)
+```
 
 ### Scientific Rationale
 
@@ -145,3 +149,51 @@ Here’s a granular timeline for the first 120 minutes sequence, mapping noise t
 
 - **Personalization:** Adjust tremolo frequencies based on individual EEG data.
 - **Closed-Loop Systems:** Use real-time biometric feedback to adapt soundscapes.  
+
+---
+
+# ⚠️ WARNINGS & DISCLAIMERS
+
+## Experimental Tool & Use at Your Own Risk  
+
+> **This tool is an experimental prototype.** It has **not undergone peer review, clinical testing, or safety validation** for medical, neurological, or auditory use.  
+
+### Key Risks & Limitations:  
+- **Unproven Effects:** Features are based on preliminary research and may not apply universally.  
+- **Potential Harm:** Improper use (e.g., high volume, prolonged exposure) may disrupt sleep, cause hearing damage, or trigger adverse reactions in sensitive individuals.  
+- **No Guarantees:** There is **no assurance** this tool will improve sleep quality, and misuse may worsen sleep issues.  
+- **Unintended Consequences:** Sound sequences (e.g., binaural beats, tremolo patterns) may interfere with circadian rhythms or cause anxiety.  
+
+By using this tool, you **assume full responsibility** for risks and outcomes.  
+
+## Critical Volume and Hearing Safety Warning  
+
+> **Hearing damage is a serious risk.** Follow these guidelines strictly:  
+
+- **Never use this tool at high volumes**, even during sleep. Prolonged exposure to sounds above **85 dB** can cause **permanent hearing loss**.  
+- **Start at <30% volume** and adjust only as needed. If someone nearby can hear the sound, it’s too loud.  
+- **Avoid earbuds/in-ear devices** while sleeping. They increase risk of ear infections, discomfort, or volume spikes.  
+- **Use over-ear headphones at low volumes** instead of cranking sound to mask external noise.  
+- **Test output levels** with a decibel meter app (e.g., Google "sound meter" on Android).  
+
+**Reference Points:**  
+- Normal conversation: ~60 dB  
+- Busy traffic: ~80 dB  
+- Earbud max volume: ~100+ dB  
+
+---
+
+## No Medical Advice or Liability  
+
+- This tool is **not a substitute for professional medical advice, diagnosis, or treatment**.  
+- Consult a healthcare provider before use if you have tinnitus, hearing loss, sleep disorders, or other health concerns.  
+- The creators assume **no liability** for:  
+  - Hearing damage, sleep disruption, or adverse effects from use.  
+  - Technical failures (e.g., audio glitches, incorrect timing).  
+  - Reliance on unvalidated claims about sleep improvement.  
+
+## Download
+
+**Download sequencer prototype:**
+
+[Theta Sleep Sequencer](delta-sleep-1-2h.sh)  
