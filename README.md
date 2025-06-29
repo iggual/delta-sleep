@@ -192,7 +192,7 @@ By using this tool, you **assume full responsibility** for risks and outcomes.
   - Technical failures (e.g., audio glitches, incorrect timing).  
   - Reliance on unvalidated claims about sleep improvement.  
 
-## Download
+# Download
 
 **Download sequencer prototype:**
 
