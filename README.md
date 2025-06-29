@@ -152,7 +152,7 @@ Here’s a granular timeline for the first 120 minutes of the sequencer, mapping
 
 ---
 
-# ⚠️ WARNINGS & DISCLAIMERS
+# ⚠️ WARNINGS & DISCLAIMERS ⚠️
 
 ## Experimental Tool & Use at Your Own Risk  
 
@@ -196,4 +196,4 @@ By using this tool, you **assume full responsibility** for risks and outcomes.
 
 **Download sequencer prototype:**
 
-[Theta Sleep Sequencer](delta-sleep-1-2h.sh)  
+[Theta Sleep Sequencer](https://github.com/iggual/delta-sleep/archive/refs/heads/main.zip)  
